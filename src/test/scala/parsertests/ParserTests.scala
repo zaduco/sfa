@@ -11,7 +11,6 @@ import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 
 
-@RunWith(classOf[JUnitRunner])
 class ParserTests extends FunSuite {
 
   test("Read data for single company for first time") {
