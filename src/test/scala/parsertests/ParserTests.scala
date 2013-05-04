@@ -52,7 +52,7 @@ class ParserTests extends FunSuite {
 
     balanceResult match {
       case Some(x) => assert(false)
-      case None => assert(false)
+      case None => assert(true)
     }
 
   }
