@@ -90,6 +90,7 @@
 						<goals>
 							<goal>compile</goal>
 							<goal>testCompile</goal>
+							
 						</goals>
 					</execution>
 				</executions>
@@ -101,6 +102,7 @@
 				<configuration>
 					<forkMode>once</forkMode>
 					<useFile>false</useFile>
+				    <skipTests>true</skipTests>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -122,15 +124,7 @@
 				</executions>
 			</plugin>
 
-			<!-- disable surefire -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.7</version>
-				<configuration>
-					<skipTests>true</skipTests>
-				</configuration>
-			</plugin>
+			 
 			<!-- enable scalatest -->
 			<plugin>
 				<groupId>org.scalatest</groupId>
