@@ -1,0 +1,1 @@
+resolvers += "Scala-Tools Maven2 Snapshots Repository" at "http://scala-tools.org/repo-snapshots"    resolvers += "SonaType" at "https://oss.sonatype.org/content/groups/public"   addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.1.0")
