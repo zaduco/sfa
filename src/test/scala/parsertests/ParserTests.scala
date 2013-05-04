@@ -7,8 +7,7 @@ import org.scalatest.FunSuite
 import datamodel.MockCompany
 import datamodel.MockCompanyEmpty
 import parser.MockParser
-import org.junit.runner.RunWith
-import org.scalatest.junit.JUnitRunner
+
 
 
 class ParserTests extends FunSuite {
